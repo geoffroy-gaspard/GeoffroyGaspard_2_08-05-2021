@@ -78,6 +78,7 @@ ul {
 #searchbar {
     display: flex;
     text-align: left;
+    align-items: center;
     margin: -20px 0 0 300px;
 }
 
@@ -91,7 +92,6 @@ ul {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: #F2F2F2;
-    margin-top: 16px;
 }
 
 #search {
