@@ -124,6 +124,8 @@ input {
 }
 
 .filtericone {
+    text-decoration: none;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,6 +133,10 @@ input {
     border-radius: 40px/40px;
     height: 40px;
     margin: 16px 0 0 0;
+}
+
+.filtericone:hover {
+    background-color: #DEEBFF;
 }
 
 .space {
