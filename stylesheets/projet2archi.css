@@ -45,11 +45,11 @@ ul {
 
 #subscribe {
     justify-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 .subscribebutton {
-    grid-column-start: 3;
-    grid-column-end: 4;
     color: #0065FC;
     text-decoration: none;
     font-weight: bold;
@@ -469,7 +469,7 @@ footer {
 
     .innpricepopular {
         align-self: start;
-    }   
+    }
 
     .popularpicbox {
         min-width: 50%;
@@ -580,6 +580,7 @@ footer {
     }
 
     #subscribe {
+        margin-right: 10px;
         justify-self: end;
         grid-column-start: 2;
         grid-column-end: 3;
