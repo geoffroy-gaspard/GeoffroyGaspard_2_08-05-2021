@@ -61,6 +61,7 @@ ul {
 
 main {
     margin: 0 150px 0 150px;
+    justify-content: center;
 }
 
 #maintitle {
@@ -124,7 +125,6 @@ main {
 }
 
 #filtersbar {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -136,7 +136,7 @@ main {
 
 .filter:nth-child(1) {
     padding: 0 0 0 0;
-    margin-right: 30px;
+    margin: 14px 30px 16px 0;
 }
 
 .filtericone {
