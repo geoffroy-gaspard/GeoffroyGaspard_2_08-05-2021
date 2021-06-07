@@ -355,6 +355,10 @@ main {
     display: flex;
 }
 
+.activityside:nth-child(2) .activityS:nth-child(2) {
+    margin-right: 0;
+}
+
 .activityS {
     display: flex;
     flex-direction: column;
@@ -737,10 +741,6 @@ footer {
     .popularpicboxstubborn {
         max-width: 280px;
         width: auto;
-    }
-
-    .activityside:nth-child(2) .activityS:nth-child(2) {
-        margin-right: 0;
     }
 
     .activitypicbox {
