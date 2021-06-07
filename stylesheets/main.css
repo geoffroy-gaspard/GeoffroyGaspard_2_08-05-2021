@@ -61,7 +61,6 @@ ul {
 
 main {
     margin: 0 150px 0 150px;
-    justify-content: center;
 }
 
 #maintitle {
@@ -190,6 +189,7 @@ main {
 
 #centerpart {
     display: flex;
+    justify-content: center;
     margin: 30px 0 0 0;
 }
 
@@ -348,6 +348,7 @@ main {
 
 #activity {
     display: flex;
+    justify-content: center;
 }
 
 .activityside {
@@ -609,7 +610,7 @@ footer {
         width: fit-content;
         max-width: 750px;
     }
-    
+
     .activitypicstubborn {
         object-position: center;
     }
@@ -709,4 +710,52 @@ footer {
     .housingpicbox {
         height: 130px;
     }
+}
+
+@media all and (min-width: 2000px) {
+
+    .housingbox {
+        max-height: 400px;
+        height: auto;
+    }
+
+    .housingpicbox {
+        max-width: 450px;
+        width: auto;
+    }
+
+    .popularbox {
+        max-width: 660px;
+        width: auto;
+    }
+
+    .popularpicbox {
+        max-width: 280px;
+        width: auto;
+    }
+
+    .popularpicboxstubborn {
+        max-width: 280px;
+        width: auto;
+    }
+
+    .activityside:nth-child(2) .activityS:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .activitypicbox {
+        max-width: 750px;
+        width: auto;
+    }
+
+    .activitypicboxS {
+        max-width: 750px;
+        width: auto;
+    }
+
+    .footerbox {
+        margin-left: auto;
+        margin-right: 150px;
+    }
+
 }
