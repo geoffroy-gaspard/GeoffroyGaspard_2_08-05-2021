@@ -134,6 +134,11 @@ main {
     padding: 0 20px 0 20px;
 }
 
+.filter:nth-child(1) {
+    padding: 0 0 0 0;
+    margin-right: 30px;
+}
+
 .filtericone {
     text-decoration: none;
     color: black;
@@ -145,6 +150,7 @@ main {
     border-radius: 40px/40px;
     height: 40px;
     margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 .filtericone:hover {
@@ -178,7 +184,7 @@ main {
     align-items: center;
     color: #0065FC;
     border-radius: 20px/20px;
-    border: 2px solid #DEEBFF;
+    border: 1px solid #f2f2f2;
     margin: 0 10px 0 0;
 }
 
@@ -202,6 +208,7 @@ main {
 .housingselection {
     display: flex;
     flex-direction: row;
+    margin-bottom: 40px;
 }
 
 .housingbox {
@@ -250,13 +257,8 @@ main {
     border-top-right-radius: 20px;
 }
 
-#Xspacecenter {
-    height: 50px;
-    width: 846px;
-}
-
 #showmore {
-    margin: 40px 0 35px 0;
+    margin-bottom: 35px;
     font-weight: bold;
 }
 
@@ -289,7 +291,6 @@ main {
 
 #chartline {
     display: flex;
-    align-content: center;
     align-items: center;
     font-size: 1.4em;
     margin: 35px 30px 20px 0;
@@ -303,12 +304,12 @@ main {
 
 .innnamepopular {
     text-align: left;
-    margin: 10px 0 7px 15px;
+    margin: 10px 0 0 15px;
 }
 
 .innpricepopular {
     text-align: left;
-    margin: -2px 0 0 15px;
+    margin: 0 0 0 15px;
 }
 
 .starratingpopular {
@@ -356,6 +357,7 @@ main {
 .activityS {
     display: flex;
     flex-direction: column;
+    margin-right: 55px;
 }
 
 .banner {
@@ -368,19 +370,11 @@ main {
         6px 6px 6px #f2f2f2,
         -6px 0 6px #f2f2f2;
     height: 45px;
-    margin: 0 0 18.72px 0;
+    margin: 0 0 56px 0;
 }
 
 .bannername {
     margin-left: 20px;
-}
-
-.spaceYactivity {
-    width: 50px;
-}
-
-.spaceXactivity {
-    height: 37px;
 }
 
 .activitypicbox {
@@ -417,7 +411,8 @@ main {
 
 footer {
     display: flex;
-    margin: 40px 0 0 0;
+    width: auto;
+    margin: 10px 0 0 0;
     background-color: #F2F2F2;
 }
 
@@ -436,6 +431,10 @@ footer {
 @media all and (max-width: 1025px) {
     header {
         margin: auto;
+    }
+
+    .links:hover {
+        padding-top: 21px;
     }
 
     main {
@@ -495,58 +494,40 @@ footer {
         max-width: 750px;
     }
 
-    #Xspacecenter {
-        height: 0;
-        width: 0;
-    }
-
-    .Yspacecenter {
-        height: 0;
-        width: 0;
-    }
-
-    #activity {
-        padding: 0 0 0 30px;
-        justify-content: center;
-    }
-
     #activitytitle {
         padding: 0 0 0 30px;
     }
 
+    #activity {
+        justify-content: center;
+    }
+
     .activitypicbox {
-        max-width: 355px;
+        width: auto;
+        max-width: 450px;
         height: 150px;
     }
 
     .activitypicboxS {
+        width: auto;
+        max-width: 450px;
         height: 150px;
     }
 
     .activityside {
         display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        column-gap: 30px;
     }
 
     .activityS {
-        max-width: 90%;
+        max-width: 100%;
         width: auto;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+        margin: 0;
     }
 
     .banner {
-        width: 350px;
-    }
-
-    .spaceXactivity {
-        height: 0;
-        width: 0;
-    }
-
-    .spaceYactivity {
-        height: 0;
-        width: 0;
+        width: inherit;
     }
 
     footer {
@@ -600,15 +581,14 @@ footer {
     }
 
     .link:hover {
-        color: #0065FC;
         border-bottom: solid #0065FC;
-        justify-content: center;
         padding-bottom: 10px;
     }
 
-    .links:hover {
+    .link:hover a {
         border-top: none;
         padding-top: 0;
+        color: #0065FC;
     }
 
     .housingselection {
@@ -620,10 +600,6 @@ footer {
         flex-direction: column;
     }
 
-    .activityside {
-        column-gap: 0;
-    }
-
     .activitypicbox {
         width: fit-content;
         max-width: 750px;
@@ -633,10 +609,9 @@ footer {
         width: fit-content;
         max-width: 750px;
     }
-
-    .banner {
-        width: inherit;
-        max-width: 750px;
+    
+    .activitypicstubborn {
+        object-position: center;
     }
 
     footer {
@@ -704,7 +679,7 @@ footer {
     }
 
     .filtericone {
-        margin: 0 5px 10px 0;
+        margin-right: 5px;
     }
 
     .popularbox {
@@ -722,6 +697,10 @@ footer {
 }
 
 @media all and (max-width: 421px) {
+
+    #maintitlepar {
+        line-height: 1;
+    }
 
     .innpricepopular {
         align-self: end;
