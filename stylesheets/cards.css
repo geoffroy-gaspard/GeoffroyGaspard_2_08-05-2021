@@ -1,0 +1,94 @@
+.housingcard {
+    height: 240px;
+    border: 5px solid white;
+    border-radius: 20px/20px;
+    background-color: white;
+    margin-right: 35px;
+}
+
+.housingpiccard {
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.housingpic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.popularhousingcard {
+    margin: 0 30px 35px 30px;
+    border: 5px solid white;
+    border-radius: 20px/20px;
+    background-color: white;
+    display: flex;
+    width: 400px;
+}
+
+.popularhousingpiccard {
+    width: 175px;
+    height: 168px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.popularhousingpiccardstubborn {
+    width: 266px;
+    height: 168px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.popularhousingpic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.activitycard {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+}
+
+
+.activitypiccard {
+    width: 360px;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitypiccardS {
+    width: 355px;
+    height: 172px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitypic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitypicstubborn {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,327 @@
+@media all and (max-width: 1025px) {
+    header {
+        margin: auto;
+    }
+
+    .links:hover {
+        padding-top: 21px;
+    }
+
+    main {
+        margin: auto;
+    }
+
+    #centerpart {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #mostpopularhousing {
+        border-radius: 0;
+    }
+
+    #popularhousing {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .popularhousingcard {
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .innpricepopularhousing {
+        align-self: start;
+    }
+
+    .popularhousingpiccard {
+        min-width: 50%;
+    }
+
+    .popularhousingpiccardstubborn {
+        min-width: 50%;
+    }
+
+    #housing {
+        padding: 0 0 0 0;
+        margin: 20px 0 0 0;
+        background-color: white;
+        border: none;
+    }
+
+    .housingselection {
+        justify-content: center;
+    }
+
+    .housingcard {
+        margin: 20px 5px 0 0;
+        box-shadow:
+            6px 6px 6px #f2f2f2,
+            -6px 0 6px #f2f2f2;
+    }
+
+    .housingpiccard {
+        width: fit-content;
+        max-width: 750px;
+    }
+
+    #activitytitle {
+        padding: 0 0 0 30px;
+    }
+
+    #activity {
+        justify-content: center;
+    }
+
+    .activitypiccard {
+        width: auto;
+        max-width: 450px;
+        height: 150px;
+    }
+
+    .activitypiccardS {
+        width: auto;
+        max-width: 450px;
+        height: 150px;
+    }
+
+    .activityside {
+        display: grid;
+    }
+
+    .activitycard {
+        max-width: 100%;
+        width: auto;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+        margin: 0;
+    }
+
+    .banner {
+        width: inherit;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .footerbox {
+        text-align: left;
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    #navbar {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    #subscribe {
+        margin-right: 10px;
+        justify-self: end;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #linktomaincontent {
+        width: 100%;
+        padding-top: 10px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .link {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+
+    .link:hover {
+        border-bottom: solid #0065FC;
+        padding-bottom: 10px;
+    }
+
+    .link:hover a {
+        border-top: none;
+        padding-top: 0;
+        color: #0065FC;
+    }
+
+    .housingselection {
+        flex-wrap: wrap;
+    }
+
+    #activity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activitypiccard {
+        width: fit-content;
+        max-width: 750px;
+    }
+
+    .activitypiccardS {
+        width: fit-content;
+        max-width: 750px;
+    }
+
+    .activitypicstubborn {
+        object-position: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 515px) {
+
+    #search {
+        border-right: none;
+        width: 80%;
+    }
+
+    #searchbuttons {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #searchbutton {
+        display: none;
+    }
+
+    #searchbuttonicone {
+        height: 48px;
+        width: 50px;
+        margin-left: -7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #0065fc;
+        border-radius: 15px/15px;
+        background-color: #0065FC;
+        color: white;
+        font-size: 1.04em;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: row;
+        padding: 0 10px 0 10px;
+    }
+
+    .filter:nth-child(1) {
+        order: 0;
+        width: 100%;
+    }
+
+    .filter:nth-child(2) {
+        order: 2;
+    }
+
+    .filter:nth-child(3) {
+        order: 2;
+    }
+
+    .filter:nth-child(4) {
+        order: 3;
+    }
+
+    .filter:nth-child(5) {
+        order: 4;
+    }
+
+    .filtericone {
+        margin-right: 5px;
+    }
+
+    .popularhousingcard {
+        margin: 0 10px 35px 10px;
+    }
+
+    .popularhousingpiccard {
+        min-width: 10%;
+    }
+
+    .popularhousingpiccardstubborn {
+        min-width: 10%;
+    }
+
+}
+
+@media all and (max-width: 421px) {
+
+    #maintitlepar {
+        line-height: 1;
+    }
+
+    .innpricepopularhousing {
+        align-self: end;
+    }
+
+    .housingpiccard {
+        height: 130px;
+    }
+}
+
+@media all and (min-width: 2000px) {
+
+    .housingcard {
+        max-height: 400px;
+        height: auto;
+    }
+
+    .housingpiccard {
+        max-width: 660px;
+        width: auto;
+    }
+
+    .popularhousingcard {
+        max-width: 660px;
+        width: auto;
+    }
+
+    .popularhousingpiccard {
+        max-width: 50%;
+        width: auto;
+    }
+
+    .popularhousingpiccardstubborn {
+        max-width: 50%;
+        width: auto;
+    }
+
+    .activitypiccard {
+        max-width: 750px;
+        width: auto;
+    }
+
+    .activitypiccardS {
+        max-width: 750px;
+        width: auto;
+    }
+
+    .footerbox {
+        margin-left: auto;
+        margin-right: 150px;
+    }
+
+}
