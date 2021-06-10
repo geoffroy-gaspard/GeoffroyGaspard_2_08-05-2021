@@ -1,6 +1,7 @@
 .housingcard {
     width: 100%;
-    height: 240px;
+    min-height: 240px;
+    height: auto;
     border: 5px solid white;
     border-radius: 20px/20px;
     background-color: white;
@@ -8,8 +9,10 @@
 }
 
 .housingpiccard {
-    width: 300px;
+    width: auto;
+    max-width: 320px;
     height: 150px;
+    max-height: 60%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -29,18 +32,13 @@
     border-radius: 20px/20px;
     background-color: white;
     display: flex;
-    width: 400px;
+    width: auto;
+    max-width: 420px;
 }
 
 .popularhousingpiccard {
-    width: 175px;
-    height: 168px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.popularhousingpiccardstubborn {
-    width: 266px;
+    width: auto;
+    max-width: 40%;
     height: 168px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -63,14 +61,16 @@
 
 
 .activitypiccard {
-    width: 360px;
+    width: auto;
+    max-width: 380px;
     height: 450px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .activitypiccardS {
-    width: 355px;
+    width: auto;
+    max-width: 375px;
     height: 172px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

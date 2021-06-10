@@ -1,4 +1,4 @@
-@media all and (max-width: 1025px) {
+@media all and (max-width: 1450px) {
     header {
         margin: auto;
     }
@@ -38,10 +38,6 @@
         min-width: 50%;
     }
 
-    .popularhousingpiccardstubborn {
-        min-width: 50%;
-    }
-
     #housing {
         padding: 0 0 0 0;
         margin: 20px 0 0 0;
@@ -76,13 +72,13 @@
 
     .activitypiccard {
         width: auto;
-        max-width: 450px;
+        max-width: 750px;
         height: 150px;
     }
 
     .activitypiccardS {
         width: auto;
-        max-width: 450px;
+        max-width: 750px;
         height: 150px;
     }
 
@@ -262,10 +258,6 @@
         min-width: 10%;
     }
 
-    .popularhousingpiccardstubborn {
-        min-width: 10%;
-    }
-
 }
 
 @media all and (max-width: 421px) {
@@ -301,11 +293,6 @@
     }
 
     .popularhousingpiccard {
-        max-width: 50%;
-        width: auto;
-    }
-
-    .popularhousingpiccardstubborn {
         max-width: 50%;
         width: auto;
     }
