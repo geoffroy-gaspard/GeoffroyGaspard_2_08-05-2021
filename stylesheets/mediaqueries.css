@@ -61,7 +61,7 @@
     }
 
     .housingpiccard {
-        width: fit-content;
+        width: 100%;
         max-width: 750px;
     }
 
@@ -70,7 +70,8 @@
     }
 
     #activity {
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .activitypiccard {
