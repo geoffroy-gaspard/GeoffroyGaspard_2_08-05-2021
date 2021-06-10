@@ -138,6 +138,7 @@ main {
     border-radius: 20px/20px;
     padding-left: 30px;
     margin-right: 50px;
+    width: 65%;
 }
 
 #housing h2 {
@@ -213,10 +214,12 @@ main {
 
 #activity {
     display: flex;
+    width: 100%;
 }
 
 .activityside {
     display: flex;
+    width: 50%;
 }
 
 .activityside:nth-child(2) .activitycard:nth-child(2) {
