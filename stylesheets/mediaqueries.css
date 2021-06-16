@@ -318,6 +318,15 @@
         width: auto;
     }
 
+    .activityside:nth-child(2) .activitycard:nth-child(1) .banner {
+        max-width: 750px;
+    }
+    
+    
+    .activityside:nth-child(2) .activitycard:nth-child(2) .banner {
+        max-width: 750px;
+    }
+
     .footerbox {
         margin-left: auto;
         margin-right: 150px;
