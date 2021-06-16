@@ -226,6 +226,15 @@ main {
     margin-right: 0;
 }
 
+.activityside:nth-child(2) .activitycard:nth-child(1) .banner {
+    max-width: 384px;
+}
+
+
+.activityside:nth-child(2) .activitycard:nth-child(2) .banner {
+    max-width: 381px;
+}
+
 .banner {
     text-align: left;
     font-weight: bold;
