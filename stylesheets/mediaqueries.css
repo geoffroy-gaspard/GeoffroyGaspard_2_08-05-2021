@@ -40,6 +40,11 @@
         margin-left: 10px;
     }
 
+    #chartline {
+        margin-right: 4%;
+    }
+
+
     #popularhousing {
         display: grid;
         grid-template-columns: 100%;
@@ -200,7 +205,7 @@
     }
 
     #chartline {
-        margin: 0 15px 0 10px;
+        margin-left: 10px;
     }
 
     .housingselection {
